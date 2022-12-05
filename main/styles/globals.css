@@ -1,15 +1,14 @@
 @font-face {
-  font-familty: "Open Sans",
-  src: local("Open_Sans"),
-    url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
-    format("ttf")
+  font-familty: "Open Sans";
+  src: local("Open Sans"),
+    url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf")
+      format("truetype");
 }
 
 @font-face {
-  font-familty: "Zen Dots",
-  src: local("Zen_Dots"),
-    url("../../assets/fonts/Zen_Dots/ZenDots-Regular.ttf")
-    format("ttf")
+  font-familty: "Zen Dots";
+  src: local("Zen Dots"),
+    url("../assets/fonts/Zen_Dots/ZenDots-Regular.ttf") format("truetype");
 }
 
 html,

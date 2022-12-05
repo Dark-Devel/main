@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div style={styles.wrapper}>
       <div style={styles.logo}>
-        <p>
+        <p style={{ fontFamily: "Zen Dots" }}>
           Dark Devel
         </p>
       </div>

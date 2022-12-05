@@ -1,15 +1,5 @@
-@font-face {
-  font-familty: "Open Sans";
-  src: local("Open Sans"),
-    url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf")
-      format("truetype");
-}
-
-@font-face {
-  font-familty: "Zen Dots";
-  src: local("Zen Dots"),
-    url("../assets/fonts/Zen_Dots/ZenDots-Regular.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 html,
 body {
@@ -24,8 +14,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* display: flex;
-  flex-direction: column; */
+  font-family: "Open Sans";
 }
 
 #__app * {

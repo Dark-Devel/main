@@ -1,6 +1,5 @@
 import allStyles from "./styles";
 
-import _ from "lodash";
 import useDynamicStyles from "../../hooks/useDynamicStyles";
 
 const Nav = () => {

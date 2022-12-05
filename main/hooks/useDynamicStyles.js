@@ -14,10 +14,8 @@ const useDynamicStyles = (obj) => {
 
   useEffect(() => {
     const { base, tablet, desktop } = obj;
-    console.log('---------- ----------');
 
     let widthToUse = width ?? window?.innerWidth;
-    console.log(widthToUse);
 
     if (widthToUse > 1000) {
 

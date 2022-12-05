@@ -1,3 +1,17 @@
+@font-face {
+  font-familty: "Open Sans",
+  src: local("Open_Sans"),
+    url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+    format("ttf")
+}
+
+@font-face {
+  font-familty: "Zen Dots",
+  src: local("Zen_Dots"),
+    url("../../assets/fonts/Zen_Dots/ZenDots-Regular.ttf")
+    format("ttf")
+}
+
 html,
 body {
   padding: 0;

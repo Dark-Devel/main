@@ -50,7 +50,7 @@ const IndexScreen = () => {
         <Text color={colors.white}>
           TLDR: Snippets, components, and ideas
         </Text>
-        <DashBoy />
+        <DashBoy />``
         <Text color={colors.white}>
           Dark Devel was born out of the idea that small problems cause big issues for developers. Fuck those Small quirks and little glitches.
         </Text>

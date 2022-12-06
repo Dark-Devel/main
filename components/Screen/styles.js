@@ -5,7 +5,7 @@ import colors from "../../styles/theme/colors";
 
 const base = {
   wrapper: {
-    backgroundColor: colors.white
+    backgroundColor: colors.black,
   },
   content: {
     paddingTop: NAVHEIGHT,

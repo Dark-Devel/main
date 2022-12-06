@@ -2,13 +2,6 @@ import { NAVHEIGHT } from "../Navigation/styles";
 
 import colors from "../../styles/theme/colors";
 
-export const MAXSCREENWIDTH = 1440;
-
-const PADDING = {
-  BASE: 12,
-  TABLET: 24,
-  DESKTOP: 36
-}
 
 const base = {
   wrapper: {
@@ -22,25 +15,25 @@ const base = {
     top: 0,
     bottom: 0,
     overflow: "auto",
-    paddingLeft: PADDING.BASE,
-    paddingRight: PADDING.BASE,
+    // paddingLeft: PADDING.BASE,
+    // paddingRight: PADDING.BASE,
     margin: "0 auto",
-    maxWidth: MAXSCREENWIDTH
+    // maxWidth: MAXSCREENWIDTH
   }
 };
 
 const tablet = {
-  content: {
-    paddingLeft: PADDING.TABLET,
-    paddingRight: PADDING.TABLET,
-  }
+  // content: {
+  //   paddingLeft: PADDING.TABLET,
+  //   paddingRight: PADDING.TABLET,
+  // }
 };
 
 const desktop = {
-  content: {
-    paddingLeft: PADDING.DESKTOP,
-    paddingRight: PADDING.DESKTOP,
-  }
+  // content: {
+  //   paddingLeft: PADDING.DESKTOP,
+  //   paddingRight: PADDING.DESKTOP,
+  // }
 };
 
 const styles = {

@@ -1,4 +1,3 @@
-import { throwStatement } from "@babel/types";
 import colors from "../../styles/theme/colors";
 
 import SPACINGS from "../../styles/theme/spacings";
